@@ -1,0 +1,5 @@
+tup=(1,2,3,4)
+lst=list(tup)
+lst.remove(2)
+tup2=tuple(lst)
+print(tup2)
