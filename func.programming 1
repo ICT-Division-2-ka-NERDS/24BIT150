@@ -1,0 +1,15 @@
+#que1
+
+def fun():
+    a=print("hello")
+    return a
+
+def disp():
+    b=print("hi")
+    return b
+def msg():
+    c=print("bye")
+    return c
+lst=[fun,disp,msg]
+list(map(lambda f:f(),lst))
+
